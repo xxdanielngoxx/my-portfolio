@@ -2,6 +2,7 @@ import { Box, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, m
 import React from 'react';
 import { Navbar } from './Navbar';
 import projectSettingTextImage from '../images/setting-text.png';
+import portfolioImage from '../images/portfolio.png';
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
@@ -21,7 +22,15 @@ const projects = [
         description: "This is simple project for learning basic about ReactJs",
         linkSource: "https://github.com/xxdanielngoxx/setting-text",
         linkDemo: "https://setting-text.web.app/",
-    }
+    },
+    {
+        name: "Portfolio",
+        image: portfolioImage,
+        description: "My portfolio, this project is made by ReactJs",
+        linkSource: "https://github.com/xxdanielngoxx/my-portfolio",
+        linkDemo: "https://my-portfolio-24353.web.app",
+    },
+
 ]
 
 export const Portfolio = () => {
