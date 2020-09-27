@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar } from './Navbar';
 import projectSettingTextImage from '../images/setting-text.png';
 import portfolioImage from '../images/portfolio.png';
+import todoListBasicImage from '../images/todo-list-basic.png';
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
@@ -26,9 +27,17 @@ const projects = [
     {
         name: "Portfolio",
         image: portfolioImage,
-        description: "My portfolio, this project is made by ReactJs",
+        description: "This is simple project to learing ReactJs",
         linkSource: "https://github.com/xxdanielngoxx/my-portfolio",
         linkDemo: "https://my-portfolio-24353.web.app",
+        
+    },
+    {
+        name: "Todo List Basic",
+        image: todoListBasicImage,
+        description: "My portfolio, this project is made by ReactJs",
+        linkSource: "https://github.com/xxdanielngoxx/todo-list-basic",
+        linkDemo: "https://todo-list-basic.web.app/",
     },
 
 ]
